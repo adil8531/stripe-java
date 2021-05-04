@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.param.checkout;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.net.ApiRequestParams;
 import com.stripe.param.common.EmptyParam;
 import java.math.BigDecimal;

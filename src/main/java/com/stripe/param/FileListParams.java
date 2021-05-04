@@ -1,6 +1,6 @@
 package com.stripe.param;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.net.ApiRequestParams;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.param.issuing;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.net.ApiRequestParams;
 import com.stripe.net.ApiRequestParams.EnumParam;
 import com.stripe.param.common.EmptyParam;

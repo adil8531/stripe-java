@@ -1,15 +1,15 @@
 package com.stripe.net;
 
-import com.google.gson.FieldNamingPolicy;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.TypeAdapter;
-import com.google.gson.TypeAdapterFactory;
-import com.google.gson.reflect.TypeToken;
-import com.google.gson.stream.JsonReader;
-import com.google.gson.stream.JsonWriter;
+import com.stripe.google.custom.gson.FieldNamingPolicy;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.GsonBuilder;
+import com.stripe.google.custom.gson.JsonElement;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.TypeAdapter;
+import com.stripe.google.custom.gson.TypeAdapterFactory;
+import com.stripe.google.custom.gson.reflect.TypeToken;
+import com.stripe.google.custom.gson.stream.JsonReader;
+import com.stripe.google.custom.gson.stream.JsonWriter;
 import com.stripe.Stripe;
 import com.stripe.param.common.EmptyParam;
 import java.io.IOException;

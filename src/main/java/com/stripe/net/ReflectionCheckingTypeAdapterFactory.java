@@ -1,10 +1,10 @@
 package com.stripe.net;
 
-import com.google.gson.Gson;
-import com.google.gson.TypeAdapter;
-import com.google.gson.TypeAdapterFactory;
-import com.google.gson.internal.bind.ReflectiveTypeAdapterFactory;
-import com.google.gson.reflect.TypeToken;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.TypeAdapter;
+import com.stripe.google.custom.gson.TypeAdapterFactory;
+import com.stripe.google.custom.gson.internal.bind.ReflectiveTypeAdapterFactory;
+import com.stripe.google.custom.gson.reflect.TypeToken;
 
 /**
  * {@link TypeAdapterFactory} that checks that we don't use {@link ReflectiveTypeAdapterFactory}

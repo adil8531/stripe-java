@@ -1,7 +1,7 @@
 package com.stripe.model;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonParseException;
 import com.stripe.Stripe;
 import com.stripe.exception.EventDataObjectDeserializationException;
 import java.util.Map;

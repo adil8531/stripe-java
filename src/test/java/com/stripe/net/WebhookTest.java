@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.google.gson.JsonSyntaxException;
+import com.stripe.google.custom.gson.JsonSyntaxException;
 import com.stripe.BaseStripeTest;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.model.Event;

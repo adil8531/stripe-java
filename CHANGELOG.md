@@ -59,7 +59,7 @@
   * Add support for `payment_settings` on `Invoice`
 
 ## 20.36.0 - 2021-02-03
-* [#1179](https://github.com/stripe/stripe-java/pull/1179) 
+* [#1179](https://github.com/stripe/stripe-java/pull/1179)
   * Add support for `nationality` on `Person`, `PersonUpdateParams`, `PersonCreateParams` and `TokenCreateParams.person`
   * Add `gb_vat` to `TaxId.type` enum
 * [#1173](https://github.com/stripe/stripe-java/pull/1173) Add link to YouTube from readme
@@ -1128,7 +1128,7 @@ Pull requests included in this release:
 
 ## 7.6.0 - 2018-11-09
 * [#613](https://github.com/stripe/stripe-java/pull/613) Throw `ApiException` on malformed JSON responses
-    - Previously, the library would throw `com.google.gson.JsonSyntaxException` in this case. We've chosen to release this as a minor update because we assume that most users are already catching Stripe exceptions.
+    - Previously, the library would throw `com.stripe.google.custom.gson.JsonSyntaxException` in this case. We've chosen to release this as a minor update because we assume that most users are already catching Stripe exceptions.
 
 ## 7.5.0 - 2018-11-08
 * [#604](https://github.com/stripe/stripe-java/pull/604) Add new API endpoints for the `Invoice` resource.

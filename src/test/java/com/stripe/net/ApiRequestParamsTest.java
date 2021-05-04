@@ -5,7 +5,7 @@ import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.param.common.EmptyParam;
 import java.util.Map;
 import lombok.Setter;

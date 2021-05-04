@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.param.sigma;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.net.ApiRequestParams;
 import java.util.ArrayList;
 import java.util.HashMap;

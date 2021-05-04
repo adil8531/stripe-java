@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.model;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import java.math.BigDecimal;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

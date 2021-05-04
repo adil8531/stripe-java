@@ -1,7 +1,7 @@
 package com.stripe.net;
 
-import com.google.gson.Gson;
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.Stripe;
 import java.time.Duration;
 import java.util.Optional;

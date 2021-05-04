@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.model.radar;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.model.HasId;
 import com.stripe.model.StripeObject;
 import lombok.EqualsAndHashCode;

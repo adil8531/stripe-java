@@ -1,9 +1,9 @@
 // File generated from our OpenAPI spec
 package com.stripe.model;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonParseException;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import java.util.Map;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

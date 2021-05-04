@@ -2,8 +2,8 @@ package com.stripe;
 
 import static org.mockito.Mockito.reset;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.reflect.TypeToken;
 import com.stripe.exception.StripeException;
 import com.stripe.model.StripeObjectInterface;
 import com.stripe.net.ApiResource;

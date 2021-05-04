@@ -3,11 +3,11 @@ package com.stripe.net;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.google.common.collect.ImmutableMap;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonNull;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
+import com.stripe.google.custom.gson.JsonArray;
+import com.stripe.google.custom.gson.JsonElement;
+import com.stripe.google.custom.gson.JsonNull;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonPrimitive;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;

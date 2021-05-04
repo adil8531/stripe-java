@@ -1,9 +1,9 @@
 package com.stripe.model;
 
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParseException;
+import com.stripe.google.custom.gson.JsonDeserializationContext;
+import com.stripe.google.custom.gson.JsonDeserializer;
+import com.stripe.google.custom.gson.JsonElement;
+import com.stripe.google.custom.gson.JsonParseException;
 import java.lang.reflect.Type;
 
 public class StripeRawJsonObjectDeserializer implements JsonDeserializer<StripeRawJsonObject> {

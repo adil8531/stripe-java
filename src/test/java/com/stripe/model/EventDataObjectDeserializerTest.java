@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.JsonPrimitive;
+import com.stripe.google.custom.gson.JsonElement;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonParser;
+import com.stripe.google.custom.gson.JsonPrimitive;
 import com.stripe.BaseStripeTest;
 import com.stripe.exception.EventDataObjectDeserializationException;
 import com.stripe.net.ApiResource;

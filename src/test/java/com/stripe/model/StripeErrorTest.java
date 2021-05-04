@@ -3,7 +3,7 @@ package com.stripe.model;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.google.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonObject;
 import com.stripe.BaseStripeTest;
 import com.stripe.net.ApiResource;
 import org.junit.jupiter.api.Test;

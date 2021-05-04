@@ -1,7 +1,7 @@
 package com.stripe.net;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonSyntaxException;
+import com.stripe.google.custom.gson.JsonObject;
+import com.stripe.google.custom.gson.JsonSyntaxException;
 import com.stripe.exception.ApiException;
 import com.stripe.exception.AuthenticationException;
 import com.stripe.exception.CardException;

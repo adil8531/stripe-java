@@ -1,6 +1,6 @@
 package com.stripe.param.common;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.net.ApiRequestParams;
 
 public enum EmptyParam implements ApiRequestParams.EnumParam {

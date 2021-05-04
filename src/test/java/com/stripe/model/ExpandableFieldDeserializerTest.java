@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.reflect.TypeToken;
 import com.stripe.BaseStripeTest;
 import com.stripe.net.ApiResource;
 import java.util.HashMap;

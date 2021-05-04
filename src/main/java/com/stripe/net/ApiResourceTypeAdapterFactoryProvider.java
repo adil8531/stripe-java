@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.net;
 
-import com.google.gson.TypeAdapterFactory;
+import com.stripe.google.custom.gson.TypeAdapterFactory;
 import com.stripe.model.BalanceTransactionSourceTypeAdapterFactory;
 import com.stripe.model.ExternalAccountTypeAdapterFactory;
 import com.stripe.model.PaymentSourceTypeAdapterFactory;

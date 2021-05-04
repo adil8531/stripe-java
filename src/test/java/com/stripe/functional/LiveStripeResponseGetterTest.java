@@ -2,7 +2,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import com.google.gson.JsonSyntaxException;
+import com.stripe.google.custom.gson.JsonSyntaxException;
 import com.stripe.BaseStripeTest;
 import com.stripe.exception.ApiException;
 import com.stripe.exception.StripeException;

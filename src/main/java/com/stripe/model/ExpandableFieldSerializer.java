@@ -1,9 +1,9 @@
 package com.stripe.model;
 
-import com.google.gson.JsonElement;
-import com.google.gson.JsonPrimitive;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
+import com.stripe.google.custom.gson.JsonElement;
+import com.stripe.google.custom.gson.JsonPrimitive;
+import com.stripe.google.custom.gson.JsonSerializationContext;
+import com.stripe.google.custom.gson.JsonSerializer;
 import java.lang.reflect.Type;
 
 public class ExpandableFieldSerializer implements JsonSerializer<ExpandableField<?>> {

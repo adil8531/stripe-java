@@ -1,9 +1,9 @@
 package com.stripe.model;
 
-import com.google.gson.FieldNamingPolicy;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
+import com.stripe.google.custom.gson.FieldNamingPolicy;
+import com.stripe.google.custom.gson.Gson;
+import com.stripe.google.custom.gson.GsonBuilder;
+import com.stripe.google.custom.gson.JsonObject;
 import com.stripe.net.ApiResource;
 import com.stripe.net.StripeResponse;
 import java.lang.reflect.Field;

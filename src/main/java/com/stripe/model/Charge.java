@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec
 package com.stripe.model;
 
-import com.google.gson.annotations.SerializedName;
+import com.stripe.google.custom.gson.annotations.SerializedName;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.radar.Rule;
